@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick My House</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+</head>
+<body>
+     <div class="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
+    </div> 
+     <div class="spacer">
+        <div id="video-container" >
+            <video id="vid" src="vids/shuffle house harry potter.mp4" autoplay muted></video>
+        </div>
+    </div>
+        <div class="bottom">
+    <div class="low">
+        <div class="center">
+            <div class="display">
+           
+                <p><span class="shuffle is-main completed" id="chronos">Chronos</span></p>
+                <p><span class="shuffle is-main completed" id="cyber">Cybernetics</span></p>
+                <p><span class="shuffle is-main completed" id="inno">Innovators</span></p>
+                <p><span class="shuffle is-main completed" id="senti">Sentinels</span></p>
+                
+                
+            </div>
+          
+        </div>
+        <div class="center">
+            <button id="pickHouse" class="btn third">Pick House</button>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="randomize.js"></script>
+</body>
+</html>
